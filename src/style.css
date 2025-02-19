@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@layer components {
+    .hotspot-login {
+        @apply min-h-screen w-full bg-cover bg-center flex items-center justify-center p-4 bg-[url('/img/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg')];
+    }
+
+    .hotspot-status {
+        @apply min-h-screen w-full bg-cover bg-center flex items-center justify-center p-4 bg-[url('/img/000016040016.jpg')];
+    }
+
+    .hotspot-error {
+        @apply min-h-screen w-full bg-cover bg-center flex items-center justify-center p-4 bg-[url('/img/000016040013.jpg')];
+    }
+}

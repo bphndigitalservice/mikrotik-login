@@ -7,8 +7,16 @@
     <link href="./css/main.css" rel="stylesheet">
 </head>
 <body>
-<div class="flex items-center justify-center w-full h-screen">
-    <div class="text-center">
+<div class="hotspot-login">
+    <div class="bg-white/90 backdrop-blur-2xl shadow-md rounded-lg p-6 w-full max-w-md flex flex-col items-center space-y-4">
+
+        <div class="animated-error-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-red-500 animate-pulse" fill="none"
+                 viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m0-12a9 9 0 110 18 9 9 0 010-18z"/>
+            </svg>
+        </div>
         <div class="text-gray-800 text-lg font-medium">Hotspot ERROR: $(error)</div>
         <br>
         <div class="text-sm text-blue-500 underline">
