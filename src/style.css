@@ -2,7 +2,7 @@
 
 @layer components {
     .hotspot-login {
-        @apply min-h-screen w-full bg-cover bg-center flex items-center justify-center p-4 bg-[url('/img/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg')];
+        @apply min-h-screen w-full bg-cover bg-center flex items-center justify-center p-4 bg-[url('/img/husniati-salma-uAFGUY20W-U-unsplash.jpg')];
     }
 
     .hotspot-status {
